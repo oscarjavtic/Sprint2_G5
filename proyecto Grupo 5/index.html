@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesión</title>
+  </head>
+  <body>
+    <section>
+      <fieldset>
+        <legend>INICIAR SESIÓN</legend>
+        <h1>BIENVENIDO A LA INTRANET PERFILES Y USUARIOS</h1>
+        <form action="pages/menu_principal.html" method="POST">
+          <label for="">Usuario: </label><br />
+          <input
+            type="text"
+            id="usuario"
+            name="usuario"
+            tabindex="1"
+            placeholder="ingrese el nombre del usuario"
+            size="50"
+            required
+          />
+          <br /><br />
+
+          <label for="">Contraseña: </label><br />
+          <input
+            type="password"
+            id="clave"
+            name="clave"
+            tabindex="2"
+            placeholder="Ingrese la contraseña"
+            size="50"
+            required
+          />
+          <br /><br />
+
+          <button type="submit" tabindex="3">Ingresar</button>
+        </form>
+      </fieldset>
+    </section>
+  </body>
+</html>
