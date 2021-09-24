@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usuarios Crear</title>
+  </head>
+  <body>
+    <section>
+      <h1>REGISTRO DE VENTAS</h1>
+      <fieldset>
+        <legend>DETALLE DE LA FACTURA</legend>
+        <form action="" method="POST" autocomplete="off">
+          <label for="cliente">Seleccione el Cliente</label><br />
+          <select name="cliente" id="cliente">
+            <option value="1">Dora Marlen Fernandez Jaimes</option>
+            <option value="2">Oswaldo Luna</option>
+          </select>
+          <br /><br />
+
+          <label for="numerofactura">Fecha Factura</label><br />
+          <input
+            type="text"
+            id="numerofactura"
+            name="numerofactura"
+            placeholder="Numero Factura"
+            tabindex="1"
+            size="60"
+            required
+          />
+          <br /><br />
+
+          <label for="fechafactura">Fecha Factura</label><br />
+          <input
+            type="text"
+            id="fechafactura"
+            name="fechafactura"
+            placeholder="Ingrese Fecha Factura"
+            tabindex="2"
+            size="60"
+            required
+          />
+          <br /><br />
+
+          <label for="email">Email</label><br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Correo Electronico"
+            tabindex="3"
+            size="60"
+            required
+          />
+          <br /><br />
+
+          <label for="celular">Celular</label><br />
+          <input
+            type="number"
+            id="celular"
+            name="celular"
+            placeholder="Ingrese el celular"
+            tabindex="4"
+            size="60"
+            required
+          />
+          <br /><br />
+
+          <label for="subtotal">Subtotal</label><br/>
+          <input
+            type="number"
+            name="subtotal"
+            id="subtotal"
+            tabindex="5"
+            size="20"
+            required
+          />
+          <br /><br />
+
+          <label for="iva">Iva</label><br/>
+          <input
+            type="number"
+            name="iva"
+            id="iva"
+            tabindex="6"
+            size="20"
+            required
+          />
+          <br /><br />
+
+          <label for="total">Total</label><br/>
+          <input
+            type="number"
+            name="total"
+            id="total"
+            tabindex="7"
+            size="20"
+            required
+          />
+          <br /><br />
+
+          <button type="submit">Guardar</button>
+          <button type="reset">Cancelar</button>
+        </form>
+      </fieldset>
+    </section>
+  </body>
+</html>
